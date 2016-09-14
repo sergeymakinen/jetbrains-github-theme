@@ -1,13 +1,8 @@
 <scheme name="GitHub 3" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.2" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="SF Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </font>
+  <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_NAME" value="SF Mono" />
   <colors>
     <option name="CARET_ROW_COLOR" value="f8eec7" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
@@ -363,7 +358,6 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -399,6 +393,16 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="63a35c" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="63a35c" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="FOREGROUND" value="183691" />
       </value>
     </option>
   </attributes>
