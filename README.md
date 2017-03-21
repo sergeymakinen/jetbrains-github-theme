@@ -15,6 +15,6 @@ Tested with:
 
 ## Screenshots
 
-![PHP in PhpStorm](Screenshot - PhpStorm.png)
+![PHP in PhpStorm](Screenshot%20-%20PhpStorm.png)
 
-![Python in PyCharm](Screenshot - PyCharm.png)
+![Python in PyCharm](Screenshot%20-%20PyCharm.png)
