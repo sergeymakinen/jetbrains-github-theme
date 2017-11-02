@@ -508,6 +508,7 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
+        <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING"/>
         <option name="SASS_FUNCTION">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
