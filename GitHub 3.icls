@@ -6,9 +6,9 @@
     <option name="CONSOLE_FONT_NAME" value="Menlo"/>
     <option name="CONSOLE_LINE_SPACING" value="1.1"/>
     <colors>
-        <option name="CARET_ROW_COLOR" value="f8eec7"/>
+        <option name="CARET_ROW_COLOR" value="fffbdd"/>
         <option name="GUTTER_BACKGROUND" value="ffffff"/>
-        <option name="LINE_NUMBERS_COLOR" value="b7b7b7"/>
+        <option name="LINE_NUMBERS_COLOR" value="babbbd"/>
     </colors>
     <attributes>
         <option name="APACHE_CONFIG.ARG_LEXEM">
