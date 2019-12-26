@@ -1,16 +1,25 @@
 <scheme name="GitHub 3" version="142" parent_scheme="Default">
     <option name="FONT_SCALE" value="1.0"/>
+    <metaInfo>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2019.3.1.0.0</property>
+        <property name="modified">2019-12-25T23:23:29</property>
+    </metaInfo>
     <option name="LINE_SPACING" value="1.1"/>
     <option name="EDITOR_FONT_SIZE" value="12"/>
     <option name="EDITOR_FONT_NAME" value="SF Mono"/>
     <option name="CONSOLE_FONT_NAME" value="Menlo"/>
-    <option name="CONSOLE_LINE_SPACING" value="1.1"/>
     <colors>
         <option name="CARET_ROW_COLOR" value="fffbdd"/>
         <option name="GUTTER_BACKGROUND" value="ffffff"/>
         <option name="LINE_NUMBERS_COLOR" value="babbbd"/>
     </colors>
     <attributes>
+        <option name="ANNOTATION_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="d73a49"/>
+            </value>
+        </option>
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -27,20 +36,21 @@
                 <option name="BACKGROUND" value="b31d28"/>
             </value>
         </option>
-        <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL"/>
+        <option name="BASH.EXTERNAL_COMMAND">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="BASH.FUNCTION_CALL" baseAttributes=""/>
         <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
-        <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING"/>
         <option name="BASH.INTERNAL_COMMAND">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
-        <option name="BASH.REDIRECTION" baseAttributes="DEFAULT_OPERATION_SIGN"/>
         <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT"/>
         <option name="BASH.VAR_USE">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
+            <value/>
         </option>
         <option name="BASH.VAR_USE_BUILTIN">
             <value>
@@ -113,6 +123,11 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
+        <option name="CSS.URL">
+            <value>
+                <option name="FOREGROUND" value="e36209"/>
+            </value>
+        </option>
         <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT"/>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
@@ -136,7 +151,7 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="808080"/>
+                <option name="FOREGROUND" value="969896"/>
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -153,9 +168,7 @@
         </option>
         <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
+            <value/>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
@@ -168,14 +181,10 @@
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
+            <value/>
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
+            <value/>
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
@@ -195,7 +204,7 @@
         </option>
         <option name="DEFAULT_LABEL">
             <value>
-                <option name="FOREGROUND" value="d73a49"/>
+                <option name="FOREGROUND" value="6f42c1"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -205,11 +214,13 @@
             </value>
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
+            <value/>
+        </option>
+        <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="0"/>
+                <option name="FOREGROUND" value="6f42c1"/>
             </value>
         </option>
-        <option name="DEFAULT_METADATA" baseAttributes="TEXT"/>
         <option name="DEFAULT_NUMBER">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
@@ -220,25 +231,26 @@
                 <option name="FOREGROUND" value="d73a49"/>
             </value>
         </option>
-        <option name="DEFAULT_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
-        </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
-        <option name="DEFAULT_STATIC_FIELD">
+        <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="0"/>
+                <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="DEFAULT_STATIC_METHOD">
+        <option name="DEFAULT_REASSIGNED_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="0"/>
+                <option name="EFFECT_TYPE" value="1"/>
             </value>
+        </option>
+        <option name="DEFAULT_STATIC_FIELD">
+            <value/>
+        </option>
+        <option name="DEFAULT_STATIC_METHOD">
+            <value/>
         </option>
         <option name="DEFAULT_STRING">
             <value>
@@ -282,6 +294,32 @@
                 <option name="ERROR_STRIPE_COLOR" value="d2dff0"/>
             </value>
         </option>
+        <option name="DOCKER_NUMBER">
+            <value/>
+        </option>
+        <option name="DOCKER_VARIABLE">
+            <value/>
+        </option>
+        <option name="EDITORCONFIG_PATTERN">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
+        <option name="EDITORCONFIG_PROPERTY_KEY">
+            <value>
+                <option name="FOREGROUND" value="d73a49"/>
+            </value>
+        </option>
+        <option name="EDITORCONFIG_PROPERTY_VALUE">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="EDITORCONFIG_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="d73a49"/>
+            </value>
+        </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ffffff"/>
@@ -301,12 +339,27 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
+        <option name="GO_BUILTIN_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
         <option name="GO_BUILTIN_TYPE_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="e36209"/>
+                <option name="FOREGROUND" value="d73a49"/>
+            </value>
+        </option>
+        <option name="GO_BUILTIN_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
         <option name="GO_EXPORTED_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="GO_EXPORTED_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
@@ -327,6 +380,17 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
+        <option name="GO_LOCAL_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="GO_LOCAL_VARIABLE_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
         <option name="GO_OPERATOR">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -357,6 +421,11 @@
                 <option name="FOREGROUND" value="e36209"/>
             </value>
         </option>
+        <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
         <option name="GO_PACKAGE_LOCAL_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -372,9 +441,24 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
+        <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
         <option name="GO_STRUCT_EXPORTED_MEMBER">
             <value>
                 <option name="FOREGROUND" value="e36209"/>
+            </value>
+        </option>
+        <option name="GO_STRUCT_EXPORTED_MEMBER_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="GO_STRUCT_LOCAL_MEMBER_CALL">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
         <option name="GO_TYPE_REFERENCE">
@@ -386,6 +470,9 @@
             <value>
                 <option name="FOREGROUND" value="0"/>
             </value>
+        </option>
+        <option name="HTML_CODE">
+            <value/>
         </option>
         <option name="HTML_ENTITY_REFERENCE">
             <value>
@@ -408,17 +495,12 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff"/>
             </value>
         </option>
-        <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD"/>
-        <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT"/>
         <option name="IGNORE.HEADER">
             <value>
                 <option name="FOREGROUND" value="808080"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD"/>
-        <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT"/>
-        <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA"/>
         <option name="IGNORE.SYNTAX">
             <value>
                 <option name="FOREGROUND" value="86b3"/>
@@ -459,6 +541,12 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value/>
         </option>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
+        <option name="JS.DECORATOR">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE"/>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -484,16 +572,55 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
-        <option name="PHP_EXEC_COMMAND_ID">
+        <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS"/>
+        <option name="PHP_DOC_IDENTIFIER">
+            <value/>
+        </option>
+        <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_STRING"/>
+        <option name="PHP_HEREDOC_ID">
             <value>
-                <option name="BACKGROUND" value="e3fcff"/>
-                <option name="FONT_TYPE" value="1"/>
+                <option name="FOREGROUND" value="d73a49"/>
+                <option name="EFFECT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="PHP_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="PHP_INSTANCE_FIELD">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_INSTANCE_METHOD">
+            <value>
+                <option name="FOREGROUND" value="0"/>
             </value>
         </option>
         <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
+        <option name="PHP_PRIVATE_INSTANCE_METHOD">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_PROTECTED_INSTANCE_METHOD">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+            </value>
+        </option>
+        <option name="PHP_STATIC_METHOD">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+            </value>
+        </option>
         <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
         <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
-        <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME"/>
+        <option name="PY.CLASS_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
         <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="PY.KEYWORD_ARGUMENT">
@@ -549,6 +676,22 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
+        <option name="SQL_PROCEDURE">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
+        <option name="SQL_SCHEMA">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD"/>
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="5cc5"/>
+            </value>
+        </option>
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -582,6 +725,14 @@
                 <option name="FOREGROUND" value="6f42c1"/>
             </value>
         </option>
+        <option name="TS.TYPE_GUARD">
+            <value/>
+        </option>
+        <option name="TS.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
         <option name="TWIG_IDENTIFIER">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -591,6 +742,9 @@
             <value>
                 <option name="FOREGROUND" value="0"/>
             </value>
+        </option>
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+            <value/>
         </option>
         <option name="TYPO">
             <value>
@@ -615,20 +769,41 @@
                 <option name="FOREGROUND" value="22863a"/>
             </value>
         </option>
+        <option name="YAML_ANCHOR">
+            <value>
+                <option name="FOREGROUND" value="32f62"/>
+            </value>
+        </option>
         <option name="YAML_SCALAR_KEY">
             <value>
                 <option name="FOREGROUND" value="22863a"/>
             </value>
         </option>
         <option name="YAML_SIGN">
-            <value>
-                <option name="FOREGROUND" value="0"/>
-            </value>
+            <value/>
         </option>
         <option name="YAML_TEXT">
             <value>
                 <option name="FOREGROUND" value="183691"/>
             </value>
         </option>
+        <option name="com.plan9.INSTRUCTION">
+            <value>
+                <option name="FOREGROUND" value="6f42c1"/>
+            </value>
+        </option>
+        <option name="com.plan9.PSEUDO_INSTRUCTION">
+            <value>
+                <option name="FOREGROUND" value="d73a49"/>
+            </value>
+        </option>
+        <option name="com.plan9.REGISTER">
+            <value>
+                <option name="FOREGROUND" value="e36209"/>
+            </value>
+        </option>
+        <option name="org.toml.KEY">
+            <value/>
+        </option>
     </attributes>
-</scheme>
+</scheme> 
