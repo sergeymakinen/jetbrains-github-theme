@@ -2,8 +2,8 @@
     <option name="FONT_SCALE" value="1.0"/>
     <metaInfo>
         <property name="ide">idea</property>
-        <property name="ideVersion">2019.3.1.0.0</property>
-        <property name="modified">2019-12-25T23:23:29</property>
+        <property name="ideVersion">2019.3.2.0.0</property>
+        <property name="modified">2020-01-28T13:36:23</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.1"/>
     <option name="EDITOR_FONT_SIZE" value="12"/>
@@ -41,7 +41,6 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
-        <option name="BASH.FUNCTION_CALL" baseAttributes=""/>
         <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="BASH.INTERNAL_COMMAND">
             <value>
@@ -141,7 +140,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="5cc5"/>
+                <option name="FOREGROUND" value="e36209"/>
             </value>
         </option>
         <option name="DEFAULT_CONSTANT">
@@ -188,7 +187,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="5cc5"/>
+                <option name="FOREGROUND" value="e36209"/>
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -390,7 +389,9 @@
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
-        <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
+        <option name="GO_METHOD_RECEIVER">
+            <value/>
+        </option>
         <option name="GO_OPERATOR">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -511,6 +512,9 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+            <value/>
+        </option>
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="cccccc"/>
@@ -547,15 +551,27 @@
                 <option name="FOREGROUND" value="6f42c1"/>
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
-        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE"/>
+        <option name="JS.GLOBAL_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="e36209"/>
+            </value>
+        </option>
+        <option name="JS.GLOBAL_VARIABLE">
+            <value/>
+        </option>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
             <value>
                 <option name="FOREGROUND" value="5cc5"/>
             </value>
         </option>
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
-        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
+        <option name="JS.LOCAL_VARIABLE">
+            <value/>
+        </option>
+        <option name="JS.PARAMETER">
+            <value>
+                <option name="EFFECT_TYPE" value="1"/>
+            </value>
+        </option>
         <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING"/>
         <option name="JSON.KEYWORD">
             <value>
@@ -572,7 +588,9 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
-        <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS"/>
+        <option name="PHP_ALIAS_REFERENCE">
+            <value/>
+        </option>
         <option name="PHP_DOC_IDENTIFIER">
             <value/>
         </option>
@@ -585,7 +603,7 @@
         </option>
         <option name="PHP_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="5cc5"/>
+                <option name="FOREGROUND" value="e36209"/>
             </value>
         </option>
         <option name="PHP_INSTANCE_FIELD">
@@ -615,26 +633,12 @@
             </value>
         </option>
         <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
-        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="6f42c1"/>
-            </value>
-        </option>
+        <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME"/>
         <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER"/>
-        <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
-        <option name="PY.KEYWORD_ARGUMENT">
-            <value>
-                <option name="FOREGROUND" value="e36209"/>
-            </value>
-        </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
         <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
-        <option name="PY.SELF_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="5cc5"/>
-            </value>
-        </option>
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING"/>
         <option name="SASS_FUNCTION">
             <value>
@@ -682,9 +686,10 @@
             </value>
         </option>
         <option name="SQL_SCHEMA">
-            <value>
-                <option name="FOREGROUND" value="6f42c1"/>
-            </value>
+            <value/>
+        </option>
+        <option name="SQL_TABLE">
+            <value/>
         </option>
         <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD"/>
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
@@ -720,9 +725,9 @@
                 <option name="FOREGROUND" value="0"/>
             </value>
         </option>
-        <option name="TS.INTERFACE">
+        <option name="TS.MODULE_NAME">
             <value>
-                <option name="FOREGROUND" value="6f42c1"/>
+                <option name="FOREGROUND" value="e36209"/>
             </value>
         </option>
         <option name="TS.TYPE_GUARD">
@@ -806,4 +811,4 @@
             <value/>
         </option>
     </attributes>
-</scheme> 
+</scheme>
