@@ -1,6 +1,6 @@
 # JetBrains GitHub 3 theme
 
-JetBrains' IDEA/PhpStorm/PyCharm/DataGrip/GoLand/… theme inspired by the GitHub syntax highlighting style (version 3, fall of 2017).
+JetBrains' IDEA/PhpStorm/PyCharm/DataGrip/GoLand/… theme inspired by the GitHub syntax highlighting style (version 3, early 2020).
 
 Tested with:
 
