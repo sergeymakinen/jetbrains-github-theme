@@ -1,17 +1,18 @@
 <idea-plugin>
     <id>color.scheme.GitHub 3</id>
     <name>GitHub 3 Color Scheme</name>
-    <version>1.2</version>
+    <version>1.2.1</version>
     <vendor email="sergey@makinen.ru" url="https://makinen.ru/">Sergey Makinen</vendor>
 
     <description><![CDATA[
-      JetBrains' IDEA/PhpStorm/PyCharm/DataGrip/GoLand/… theme inspired by the GitHub syntax highlighting style (version 3, fall of 2017).
+      JetBrains' IDEA/PhpStorm/PyCharm/DataGrip/GoLand/… theme inspired by the GitHub syntax highlighting style (version 3, early 2020).
     ]]></description>
 
     <change-notes><![CDATA[
-      <b>1.2</b>
+      <b>1.2.1</b>
       <ul>
         <li>Tweaks for latest GitHub updates (early 2020)</li>
+        <li>Fixes for incorrectly inherited colors</li>
       </ul>
     ]]>
     </change-notes>
